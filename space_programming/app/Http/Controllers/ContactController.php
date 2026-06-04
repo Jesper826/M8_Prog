@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/contact">Contact</a></li>
-    </ul>
-<body>
-    
-</body>
-</html>
+<?php
+
+namespace App\Http\Controllers;
+
+class ContactController extends Controller
+{
+	public function get()
+	{
+		return view('contact');
+	}
+}
