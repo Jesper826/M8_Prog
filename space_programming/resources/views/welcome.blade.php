@@ -16,14 +16,14 @@
                 </p>
                 <div class="mt-8 flex flex-wrap gap-4">
                     <a href="{{ route('contact') }}" class="rounded-full bg-sky-400 px-6 py-3 font-medium text-slate-950 transition hover:bg-sky-300">
-                        Naar contact
+                        Naar contact    
                     </a>
                     <a href="#uitleg" class="rounded-full border border-white/15 px-6 py-3 font-medium text-white transition hover:bg-white/10">
                         Bekijk uitleg
                     </a>
                 </div>
             </div>
-
+    
             <div class="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-2xl shadow-black/30 backdrop-blur">
                 <p class="text-sm uppercase tracking-[0.3em] text-sky-300">Wat is er aangepast?</p>
                 <ul class="mt-6 space-y-4 text-slate-200">
