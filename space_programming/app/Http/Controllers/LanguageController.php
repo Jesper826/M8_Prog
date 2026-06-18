@@ -39,7 +39,7 @@ class LanguageController extends Controller
 	{
 		$matchedLanguage = array_values(array_filter($this->spaceLanguages, function (array $spaceLanguage) use ($lang) {
 			return $spaceLanguage['name'] === $lang;
-		}))[0] ?? null;
+		}))[0] ?? null;	
 
 		abort_if($matchedLanguage === null, Response::HTTP_NOT_FOUND);
 
